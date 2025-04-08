@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <React.Fragment>
-      <Router basename="/netflix-clone">
+      <Router basename="/">
         <Routes>
           <Route
             path="/"
